@@ -1,0 +1,130 @@
+body {
+  background-image: url("https://www.drone.io/images/lotties/lottie1-image-7bc1ca00c7.png");
+  background-size: cover;
+  background-color: #e1edf8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10%;
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-transform: none;
+  transform: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6rem;
+}
+
+header .header__logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header__logo img {
+  width: 50%;
+}
+
+header .header__logo__side {
+  position: relative;
+  left: 5%;
+}
+
+header .header__side {
+  width: 100%;
+}
+
+header .header__main-nav li {
+  display: inline-block;
+  padding: 5%;
+}
+
+header .header__main-nav li a {
+  text-decoration: none;
+  color: black;
+  font-family: system-ui;
+}
+
+.intro__inner {
+  margin: 5%;
+  padding: 5%;
+  margin-top: 0;
+  width: 32%;
+}
+
+.intro__inner .intro__content p {
+  font-size: 22px;
+  line-height: 1.67;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #9d9c9c;
+  font-family: system-ui;
+}
+
+.intro__inner .intro__content h1 {
+  font-family: cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+  margin-top: 0%;
+}
+
+.intro__inner .intro__content .button_blue {
+  display: inline-block;
+  vertical-align: top;
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00abe4;
+  border-radius: 5px;
+  padding: 22px 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.intro__inner .intro__content .button_blue:hover {
+  background-color: #0039e4;
+  -webkit-box-shadow: 0 20px 40px 0 #2364d2;
+  box-shadow: 0 20px 40px 0 #2364d2;
+}
+
+.intro__inner .intro__content .button_transparent {
+  letter-spacing: 1px;
+  color: #000000;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: top;
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 22px 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.intro__inner .intro__content .button_transparent:hover {
+  color: #0233c7;
+}
+/*# sourceMappingURL=style.css.map */
